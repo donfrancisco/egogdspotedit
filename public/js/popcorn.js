@@ -8573,7 +8573,7 @@ var googleCallback;
 
     // IE9 doesn't like dynamic creation of source elements on <video>
     // so we do it in one shot via innerHTML.
-    videoHTML = '<video id="' +  videoID + '" preload=auto autobuffer width="250" height="300">';
+    videoHTML = '<video id="' +  videoID + '" preload=auto autobuffer width="300" height="250">';
     for ( i = 0, srcLength = src.length; i < srcLength; i++ ) {
       videoHTML += '<source src="' + src[ i ] + '">';
     }
